@@ -1,0 +1,27 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: $acua;
+    font-size: 1.5rem;
+    font-family: $fuentePrincipal;
+
+    height: 60rem;
+}
+
+.contenedor{
+    max-width: 100rem;
+    width: 95%;
+    margin: 0 auto;
+}
+
+li{
+    list-style: none;    
+    font-size: 3rem;
+}

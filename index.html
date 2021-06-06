@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="build/css/app.css">
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <div class="display">
+        <section class="container contenedor">
+            <div class="head">
+                <div class="head-display">
+                    <input type="text" placeholder="0" disabled class="screen" id="screen">
+                </div>
+            </div>
+            <div class="control contenedor">
+                <div class="number">
+                    <input class="button" type="button" value="7" onclick="getData(this)">
+                    <input class="button" type="button" value="8" onclick="getData(this)">
+                    <input class="button" type="button" value="9" onclick="getData(this)">
+                    <input class="button op" type="button" value="+" onclick="getData(this)">
+                    <input class="button" type="button" value="4" onclick="getData(this)">
+                    <input class="button" type="button" value="5" onclick="getData(this)">
+                    <input class="button" type="button" value="6" onclick="getData(this)">
+                    <input class="button op" type="button" value="-" onclick="getData(this)">
+                    <input class="button" type="button" value="1" onclick="getData(this)">
+                    <input class="button" type="button" value="2" onclick="getData(this)">
+                    <input class="button" type="button" value="3" onclick="getData(this)">
+                    <input class="button op" type="button" value="*" onclick="getData(this)">
+                    <input class="button clear" type="button" value="CE" onclick="getData(this)">
+                    <input class="button" type="button" value="0" onclick="getData(this)">
+                    <input class="button result" type="button" value="=" onclick="calcular()">
+                    <input class="button op" type="button" value="/" onclick="getData(this)">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="build/js/bundle.js"></script>
+    
+</body>
+</html>

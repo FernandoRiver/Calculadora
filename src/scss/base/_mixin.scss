@@ -1,0 +1,35 @@
+// Mixin
+
+@mixin pulsar{
+    &:active{
+        box-shadow: $pulsar;
+        color:$pela;
+    }
+}
+
+// telefonos
+
+@mixin tel-ltl {
+    @media (min-width: 300px) {
+        @content;
+    }
+    
+}
+@mixin telefono{
+    @media (min-width: 411px) {
+        @content;
+    }
+    
+}
+@mixin tablet{
+    @media (min-width: 768px) {
+        @content;
+    }
+    
+}
+@mixin desktop{
+    @media (min-width: 1024px) {
+        @content;
+    }
+    
+}
